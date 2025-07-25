@@ -21,7 +21,6 @@ prueba-api-rest/
 ```
 
 ## Requisitos
-- Node.js >= 18
 - Java >= 17
 - Maven
 
@@ -40,31 +39,8 @@ prueba-api-rest/
    Para revisar el api con swagger esta disponible en `http://localhost:8080/swagger-ui.html`.
 
 
-### Frontend (Angular)
-1. Ve a la carpeta `frontend/pokeapp`:
-   ```sh
-   cd frontend/pokeapp
-   ```
-2. Instala dependencias:
-   ```sh
-   npm install
-   ```
-3. Ejecuta la app:
-   ```sh
-   npm start
-   ```
-   El frontend estará disponible en `http://localhost:4200` (o el puerto configurado).
-
-## Configuración CORS
-Si tienes problemas de CORS, asegúrate de que el backend permita peticiones desde el origen del frontend. Puedes agregar en tu controlador:
-```java
-@CrossOrigin(origins = "http://localhost:4200")
-```
-O configurar CORS globalmente en Spring Boot.
-
 ## Notas
 - El archivo `.gitignore` excluye carpetas de dependencias, builds y archivos temporales.
-- Puedes personalizar la política CSP en `frontend/pokeapp/src/index.html` según tus necesidades de seguridad.
 
 ## Autor
 - Joshua Andrade
