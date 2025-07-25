@@ -37,4 +37,4 @@ prueba-api-rest/
 - Joshua Andrade
 
 ## Tiempo
-- tiempo para hacer el proyecto Backend: 3 horas Frontend: 3 horas 
+- tiempo para hacer el proyecto Backend: 3 horas
