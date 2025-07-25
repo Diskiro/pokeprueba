@@ -1,0 +1,31 @@
+# Node/Angular
+frontend/pokeapp/node_modules/
+frontend/pokeapp/.angular/
+frontend/pokeapp/dist/
+frontend/pokeapp/.vscode/
+frontend/pokeapp/package-lock.json
+
+# IDE
+*.swp
+*.swo
+*.idea/
+*.vscode/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Java/Spring
+pokeapi-spring/target/
+pokeapi-spring/.classpath
+pokeapi-spring/.project
+pokeapi-spring/.settings/
+
+# Build
+pokeapi-spring/build/
+
+# Others
+.env
