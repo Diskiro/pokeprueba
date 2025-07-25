@@ -6,12 +6,6 @@ Este proyecto contiene una API REST en Spring Boot y un frontend en Angular para
 
 ```
 prueba-api-rest/
-├── frontend/
-│   └── pokeapp/        # Aplicación Angular
-│       ├── src/
-│       ├── node_modules/
-│       ├── angular.json
-│       └── ...
 ├── pokeapi-spring/     # API REST en Spring Boot
 │   ├── src/
 │   ├── target/
