@@ -37,7 +37,8 @@ prueba-api-rest/
    mvn clean install
    mvn spring-boot:run
    ```
-   El backend estará disponible en `http://localhost:8080`.
+   Para revisar el api con swagger esta disponible en `http://localhost:8080/swagger-ui.html`.
+
 
 ### Frontend (Angular)
 1. Ve a la carpeta `frontend/pokeapp`:
