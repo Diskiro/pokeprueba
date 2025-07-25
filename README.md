@@ -33,9 +33,6 @@ prueba-api-rest/
    Para revisar el api con swagger esta disponible en `http://localhost:8080/swagger-ui.html`.
 
 
-## Notas
-- El archivo `.gitignore` excluye carpetas de dependencias, builds y archivos temporales.
-
 ## Autor
 - Joshua Andrade
 
